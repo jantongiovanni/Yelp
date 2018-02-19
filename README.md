@@ -20,12 +20,14 @@ The following **stretch** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
+      Cells reset to back top when the user hits search
+      keyboard autohides when user begins to scroll
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. Getting a better grasp of constraints 
+2. implementing search function more frequently in apps
 
 ## Video Walkthrough
 

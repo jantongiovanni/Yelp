@@ -6,28 +6,15 @@ Time spent: **10** hours spent in total
 
 ## User Stories
 
-The following **required** functionality is completed:
+- [x] Table rows for search results should be dynamic height according to the content height.
+- [x] Custom cells should have the proper Auto Layout constraints.
+- [x] Search bar should be in the navigation bar (doesn't have to expand to show location like the real Yelp app does).
 
-- [x] Table rows for search results should be dynamic height according to the content height. (3pt)
-- [x] Custom cells should have the proper Auto Layout constraints. (+5pt)
-- [x] Search bar should be in the navigation bar (doesn't have to expand to show location like the real Yelp app does). (+2pt)
-
-The following **stretch** features are implemented:
-
-- [ ] Infinite scroll for restaurant results. (+3pt)
-- [ ] Implement map view of restaurant results. (+3pt)
-- [ ] Implement the restaurant detail page. (+2pt)
 
 The following **additional** features are implemented:
 
-- [x] List anything else that you can get done to improve the app functionality!
-      Cells reset to back top when the user hits search
-      keyboard autohides when user begins to scroll
-
-Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
-
-1. Getting a better grasp of constraints 
-2. implementing search function more frequently in apps
+- [x] Cells reset to back top when the user hits search
+      Keyboard autohides when user begins to scroll
 
 ## Video Walkthrough
 
@@ -37,13 +24,9 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Notes
-
-Describe any challenges encountered while building the app.
-
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Joe Antongiovanni]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

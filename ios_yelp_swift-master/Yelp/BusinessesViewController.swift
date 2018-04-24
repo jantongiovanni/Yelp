@@ -13,7 +13,7 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
     var businesses: [Business]!
     
     let searchBar = UISearchBar()
-
+    
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -35,7 +35,6 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
                     print(business.address!)
                 }
             }
-            
             }
         )
         
@@ -74,7 +73,7 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
             
             }
         )
-
+        
         tableView.setContentOffset(.zero, animated: true)
     }
     
@@ -89,7 +88,7 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if businesses != nil {
-        return businesses!.count
+            return businesses!.count
         } else {
             return 0
         }
@@ -103,15 +102,4 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
         
         return cell
     }
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
 }

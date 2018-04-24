@@ -75,9 +75,9 @@ class YelpClient: BDBOAuth1RequestOperationManager {
                                     completion(Business.businesses(array: dictionaries!), nil)
                                 }
                             }
-                        },
+            },
                         failure: { (operation: AFHTTPRequestOperation?, error: Error) -> Void in
                             completion(nil, error)
-                        })!
+        })!
     }
 }
